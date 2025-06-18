@@ -1,0 +1,7 @@
+general.import = ["/home/ubuntu/.config/alacritty/dracula/dracula.toml"]
+
+[font]
+size = 14
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
