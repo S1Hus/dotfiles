@@ -1,0 +1,42 @@
+jekyll serve
+jekyll serve
+clear
+rm naviagation.yml 
+rm naviagation.yml~
+exit
+cd ..
+rm _config.yml 
+cd _posts/
+rm apple.md apple.md~
+mv banana.md 20204-11-10-bannana.md
+mv kiwifruit.md 2024-11-10-kiwifruit.md
+mv 20204-11-10-bannana.md 2024-11-10-banana.md
+rm 2024-11-10-apple.md~
+rm 2024-11-10-kiwifruit.md~
+rm 2024-11-10-kiwifruit.md
+la
+rm 20204-11-10-bannana.md~
+mv 20204-11-10-bannana.md 2024-11-10-banana.md
+cp 2024-11-10-apple.md 2024-11-10-kiwkifruit.md
+cat 2024-11-10-banana.md
+cd ..
+rm -r _posts/
+mkdir _posts
+cd _posts/
+touch 2024-11-10-banana.md
+mv kiwifruit.md 2024-11-10-kiwifruit.md
+ls
+cd _posts/
+ls
+mkdir food
+ls
+mv 2024-11-10-apple.md food/
+ls
+mv 2024-11-10-banana.md 2024-11-10-kiwifruit.md food/
+ls
+rm 2024-11-10-apple.md~
+ls
+rm 2024-11-10-banana.md~
+ls
+cd food/
+ls
