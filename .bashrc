@@ -136,3 +136,9 @@ xterm* | rxvt*)
 esac
 
 alias battery-status="~/.local/bin/battery-status"
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+eval "$(fzf --bash)"
+
+PATH="$PATH":"$HOME/.local/bin/"
+bind '"\C-f":"tmux-sessionizer\n"'
